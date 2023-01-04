@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+<%- include('../partials/header'); %>
+
+<div class="gradient-banner-area">
+	<div class="container">
+			<div class="row align-items-center">
+					<div class="col-lg-6 col-md-12">
+							<div class="gradient-banner-content">
+									<h1>Run Pi node on your computer</h1>
+									<p>Access the Pi App from your computer and apply to join the Pi Testnet.</p>
+									<div class="main-btns-wrapper">
+										<a href="<%= links.windows %>" target="_blank" class="default-btn icon-btn">
+											<i style="color:#fff" class="ri-windows-line"></i> Windows
+										</a>
+										<a href="<%= links.mac %>" target="_blank" class="default-btn icon-btn">
+											<i style="color:#fff;font-size: 32px;" class="ri-apple-fill"></i> Mac OS
+										</a>
+									</div>
+							</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+							<div class="gradient-banner-image" data-aos="fade-up">
+									<img src="/img/laptop.png" alt="banner-img">
+							</div>
+					</div>
+			</div>
+	</div>
+	<div class="banner-shape1"><img src="/img/shape/shape9.png" alt="image"></div>
+	<div class="banner-shape2"><img src="/img/shape/shape7.png" alt="image"></div>
+</div>
+
+<%- include('../partials/footer'); %>
+			
+	</body>
+</html>
