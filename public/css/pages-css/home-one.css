@@ -1882,6 +1882,31 @@ Free Trial Area CSS
   }
 }
 
+@media only screen and (max-width: 991px) {
+	.main-banner-content .trusted-by {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.main-banner-content .default-btn {
+    padding-left: 50px;
+	}
+	.icon-btn i {
+    font-size: 30px!important;
+	}
+	.main-btns-wrapper a {
+    padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.main-btns-wrapper a {
+    min-width: 200px;
+		margin-bottom: 10px;
+	}
+}
+
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-banner-area {
